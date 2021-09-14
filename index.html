@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resturant</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" type="text/css" href="js/jquery-3.5.1.js">
+	 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Inria+Sans&display=swap" rel="stylesheet">
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  >
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >  
+	 
+ </head>
+<body>
+	<header class="bgimg">
+		<nav class="navbar navbar-expand-lg nav_colr bg-dark  navbar-dark p-3">
+		  <a class="pl-5 navbar-brand " href="#"> <img src="images/logo.png" class="img-fluid logo" alt="">Cafe restaurant</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse fixed"  id="navbarSupportedContent">
+		    <ul class="navbar-nav pr-5 text-capitalize ml-auto ">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home </a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#aboutid">About Us</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#explore-food">Explore Foods</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#review">Reviews</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#faq">FAQ</a>
+		      </li>
+			  <li class="nav-item">
+		        <a class="nav-link btn bg-warning" href="#">Call - 1234 567 890</a>
+		      </li>
+		     </ul>
+		    </div>
+		</nav>
+	
+
+	<div class="container-fluid banner_bar  mt-3">
+		<div class="row">
+			<div class="col-lg-5 col-md-5 col-12  ">
+				<div class="leftside w-100 h-100 text-center ">
+					<h1 class="text-danger "> Good Food choices are good investments</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis explicabo vel sapiente libero iste modi  corporis cupiditate!</p>
+					<button class="btn bg-warning text-light">Order now<i class="fas fa-shopping-basket px-3"></i></button>
+					<button class="btn bg-primary text-light">Order now<i class="fas fa-angle-right px-3"></i></button>
+					<!-- <img src="images/helth_comm.png" class="img-fluid" width="480px" height="480px"> -->
+				</div>
+			</div>
+
+			<div class="col-lg-7 col-md-7 col-12 ">
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img class=" slide" src="images/img1.jpg"alt="First slide">
+						  </div>
+						  <div class="carousel-item">
+							<img class="p-0 slide" src="images/img2.jpg"  alt="Second slide">
+						  </div>
+						  <div class="carousel-item">
+							<img class=" slide" src="images/img3.jpg"  alt="Third slide">
+						  </div>
+						</div>
+					</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+</header>
+	
+<!-- ------------------ Daily Updates ------------------- -->
+<section class="container-fluid detail_ud bg-danger text-light">
+	<div class="mb-1">
+		<h1 class="text-center "> <u>TODAY'S SPECIAL</u> </h1>
+	</div>
+
+	<div class="d-flex justify-content-around align-items-center">
+		<div>
+			<h3 class="count">Tasty Lunch</h3>
+			<p> Rs. 1200/- <del>Rs.1859/-</del></p>
+		</div>
+		<div>
+			<h3 class="count">Amazing Dinner</h3>
+			<p>Rs. 899/- <del>1500</del></p>
+		</div>	
+		<div>
+			<h3 class="count">Lunch </h3>
+			<p>Rs. 1999/- <del>Rs.2564</del></p>
+		</div>
+		<div>
+			<h3 class="count">Full Dinner</h3>
+			<p>Rs. 3654 <del>Rs.4566</del> </p>
+		</div>		
+				
+	</div>
+</section>
+<!------------------- About us part -------------------------->
+<section id="aboutid">
+	<div class="container-fluid sub_section pt-5 ">
+		<h1 class="text-dark text-center pt-5">About Us</h1>
+		<hr class="mx-auto w-25 ">
+			<div class="row mb-5 pt-5">
+				<div class="col-lg-6 col-md-6 col-12 pl-5">
+					<div class="card">
+					<img src="images/abt_img1.jpg" class="img-fluid shadow rounded" >
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 p-5">
+					<h2 class="text-danger"> We pride ourselves on making real food from the best ingredients. </h2>
+					  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, dolorem impedit! Quaerat, error ab tenetur minima vitae iure pariatur quis perferendis vero deleniti cum tempore quasi earum facilis rem sed?</p>
+					<button class="btn bg-primary text-light">Read More</button>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 p-5">
+					<h2 class="text-danger">We Make everything by hand with the best possible ingrediants.</h2>
+					  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, dolorem impedit! Quaerat, error ab tenetur minima vitae iure pariatur quis perferendis vero deleniti cum tempore quasi earum facilis rem sed?</p>
+						<ul class="list-unstyled py-3">
+							<li><i class="fa fa-check text-danger" ></i> Etain sed dolor ac diam volutput</li>
+							<li><i class="fa fa-check text-danger" ></i> Erat volutpat aliquet imperdiet.</li>
+							<li><i class="fa fa-check text-danger" ></i> Purus a odio finibus bibedum.</li>
+						</ul>
+					  <button class="btn bg-primary text-light">Read More</button>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 pl-5">
+					<div class="card">
+						<img src="images/abt_img2.jpg" class="img-fluid shadow rounded" >
+					</div>
+				</div>
+			</div>
+			
+	</div>
+</section> 
+<!-- about us end -->
+
+<!-- section story start -->
+<section id="story">
+	<div class="story-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="text-content">
+						<h2 class="text-danger">When a man's stomach is full it makes no defference whether he is rich or poor.</h2>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nulla animi repellendus inventore quos laboriosam tempore consequatur fugiat minima ab labore unde enim quas magnam reprehenderit iste, iusto assumenda nobis?</p>
+						<button class="btn bg-warning mt-2">Read more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- story end -->
+
+<!-- ----------------------- explore-food --------------------- -->
+<section id="explore-food">
+	<div class="container-fluid pt-5 pb-5">
+		<h1 class="text-dark text-center ">Explore Foods</h1>
+		<hr class="mx-auto w-25 ">
+		<div class="container ">
+			<div class="row pt-lg-5 ">
+				<div class="col-sm-12">
+					<div class="text-center text-content">
+						<h2 class="text-danger">Daily new Explore Our Foods </h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates possimus ut aut officia minima ipsam eos dolorem cum ipsum nam vel at, quos assumenda illo? Illo aut voluptas possimus inventore.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center pt-5">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card border-0">
+						<img src="img/expo3.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h4 class="text-danger">Rainbow Vegetable Sandwich</h4>
+							<p>Time : 15 - 20 Minutes | Serves : 1</p>
+							<span class="text-danger d-flex">$10.50 &nbsp;<del>$12.40</del></span>
+							<button class="mt-4 btn text-light bg-primary">Order now</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card border-0">
+						<img src="img/expo2.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h4 class="text-danger">Vegitable Burger</h4>
+							<p>Time : 15 - 20 Minutes | Serves : 1</p>
+							<span class="text-danger d-flex">$10.50 &nbsp;<del>$12.40</del></span>
+							<button class="mt-4 btn text-light bg-primary">Order now</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+					<div class="card border-0">
+						<img src="img/expo1.jpg" class="card-img img-fluid">
+						<div class="card-body">
+							<h4 class="text-danger">Stuffed French Toast</h4>
+							<p>Time : 15 - 20 Minutes | Serves : 1</p>
+							<span class="text-danger d-flex">$10.50 &nbsp;<del>$12.40</del></span>
+							<button class="mt-4 btn text-light bg-primary ">Order now</button>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- -------------------------- review ------------------------- -->
+
+<section id="review">
+	<div class="container-fluid text-light testimonial-section pt-5 pb-5">
+		<h1 class=" text-center pt-5">Testimonial</h1>
+		<hr class="t mx-auto w-25">
+		<div class="testimonial-section">
+			<div class="container text-center">
+				<div class="text-center pb-4">
+					<div class="row ">
+						<div class="col-sm-12 col-lg-10 offset-1">
+							<!-- slider start -->
+							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+								  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+								  <div class="carousel-item active">
+									<img src="img/team1.jpg"  alt="...">
+									<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci cum veniam fuga minus sit odit quod praesentium reprehenderit, magnam doloremque facere ipsum, atque explicabo inventore sed velit fugit eveniet. "</p>
+									<h5 class="text-danger">Amit Singh</h5>
+								  </div>
+								  <div class="carousel-item">
+									<img src="img/team2.jpg" alt="...">
+									<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci cum veniam fuga minus sit odit quod praesentium reprehenderit, magnam doloremque facere ipsum, atque explicabo inventore sed velit fugit eveniet. "</p>
+									<h5 class="text-danger">Laxman Chaudhary</h5>
+								  </div>
+								  <div class="carousel-item">
+									<img src="img/team3.jpg" alt="...">
+									<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci cum veniam fuga minus sit odit quod praesentium reprehenderit, magnam doloremque facere ipsum, atque explicabo inventore sed velit fugit eveniet. "</p>
+									<h5 class="text-danger">Akash Chaudhary</h5>
+								  </div>
+								</div>
+								<button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden ">Previous</span>
+								</button>
+								<button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden ">Next</span>
+								</button>
+							  </div>
+							<!-- slider end -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+ <!-- --------------- FAQ section -------------------------- -->
+
+<section id="faq">
+	<div class="container-fluid pt-1 pb-5">
+		<h1 class="text-dark text-center pt-5">Frequently Asked Question</h1>
+		<hr class="mx-auto w-25 ">
+		<div class="container">
+			<div class="row pt-5">
+				<div class="col-sm-6 mb-4">
+					<h4 class="text-danger"><span>~</span> Is Foodies Bred realy baked fresh each days?</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam facilis cum deleniti aut natus assumenda, molestias nemo, necessitatibus sunt in quam eum id doloribus, repellat tempore sequi dolore vero?</p>
+				</div>
+				<div class="col-sm-6 mb-4">
+					<h4 class="text-danger"><span>~</span> Do you Breads containing animals fats or products?</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam facilis cum deleniti aut natus assumenda, molestias nemo, necessitatibus sunt in quam eum id doloribus, repellat tempore sequi dolore vero?</p>
+				</div>
+				<div class="col-sm-6 mb-4">
+					<h4 class="text-danger"><span>~</span>Can I Order you products online?</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam facilis cum deleniti aut natus assumenda, molestias nemo, necessitatibus sunt in quam eum id doloribus, repellat tempore sequi dolore vero?</p>
+				</div>
+				<div class="col-sm-6 mb-4">
+					<h4 class="text-danger"><span>~</span>When are you opening a shop near me?</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam facilis cum deleniti aut natus assumenda, molestias nemo, necessitatibus sunt in quam eum id doloribus, repellat tempore sequi dolore vero?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ <!-- --------------- book-food -------------------------- -->
+<section class="book-food">
+	<div class="book">
+		<div class="container book-food-text">
+			<div class="row text-center m-auto">
+				<div class="col-lg-9 col-md-12">
+					<h2 class="text-danger">Baked fresh daily by bakers with passion</h2>
+				</div>
+				<div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+					<button class="btn bg-primary"> Learn more</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+ <!-- --------------- News lettar section -------------------------- -->
+ <section class="newsletter">
+	 <div class="newsletter">
+		 <div class="container">
+			 <div class="row">
+				 <div class="sol-sm-12">
+					 <div class="text-content text-center pt-5 pb-4">
+						 <h2 class="text-danger">Hurry up! Subscribe our newsletter</h2>
+						 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  magnam ipsam facilis consequatur molestias pariatur recusandae minima fugiat ab earum, temporibus veritatis?</p>
+					 </div>
+					 <form action="" class="newsletter">
+						 <div class="row m-auto">
+							 <div class="col-md-8 col-12">
+								 <input type="email" placeholder="Email ID" class="form-control">
+							 </div>
+							 <div class="col-md-4 col-12 pb-5">
+								 <button class="btn text-white bg-warning">Subscribe</button>
+							 </div>
+						 </div>
+					 </form>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </section>
+
+ 
+<!-- --------------------------footer part ---------------------------- -->
+<footer>
+<div class="footer_top">
+	<div class="container">
+		<div class="row foot_sec">
+			<div class="col-md-4 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+				<h3>Divinector</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing edit. a adipisci amet blanditiis dolore dolorum ex, explicabo facilis fugit numquam possimus.</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+				<h2>Useful link</h2>
+				<ul>
+					<li><a href="">Support</a></li>
+					<li><a href="">Event</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Career</a></li>
+					<li><a href="">About</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
+				<h2>Follow Us</h2>
+				<p>Please Follow us on our Social Media Profile in order to keep updated. Lorem ipsum dolor sit amet, consectetur adipisicing edit. a adipisci amet blanditiis dolore dolorum ex, explicabo facilis fugit numquam possimus.</p>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+			</div>
+		</div>
+	</div>
+
+</div><p class="footer_bottom_text">All Right reserved 2021 by &copy; Mohan Chaudhary. 2020</p>
+
+<div class="container scrolltop float-right pr-5">
+	<i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>	
+</div>
+</footer>
+
+<!-- ---------------------------- bootstrap 4 script ----------------------- -->
+	 <script src="js/main.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- ---------------------------- bootstrap 5 script ----------------------- -->
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
